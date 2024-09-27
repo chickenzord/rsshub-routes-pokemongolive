@@ -47,7 +47,7 @@ export const route: Route = {
             .map((i) => {
                 const item = $(i);
                 const itemTitle = item.find('.blogList__post__content__title').first();
-                const itemPubDate = item.find('.blogPost__publishDate').first();
+                const itemPubDate = item.find('.blogList__post__content__date').first();
                 const itemImage = item.find('.blogList__post__image img.image').first();
 
                 const result: DataItem = {
