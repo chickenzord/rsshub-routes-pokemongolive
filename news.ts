@@ -68,7 +68,7 @@ export const route: Route = {
             item: list,
             image: imageURL,
             allowEmpty: false,
-            ttl: 60,
+            ttl: 60 * 12,
             language: lang,
         };
 
